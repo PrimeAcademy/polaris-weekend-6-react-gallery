@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import GalleryItem from '../GalleryItem/GalleryItem.js';
+import GalleryList from '../GalleryList/GalleryList.js';
 
 class App extends Component {
+
+  constructor() {
+    super();
+  }
+
   render() {
     return (
       <div className="flex-container">
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
+        <GalleryList />
       </div>
     );
   }
