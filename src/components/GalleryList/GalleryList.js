@@ -10,7 +10,7 @@ class GalleryList extends Component {
   render() {
     // do some mappin'
     const data = this.props.galleryItems.map( (item) => {
-      return <GalleryItem key={item.id} itemInfo={item} />;
+      return <GalleryItem key={item.id} itemInfo={item} addLike={this.props.addLike} />;
     });
 
     return (

@@ -18,6 +18,12 @@ class GalleryItem extends Component {
         
     }
 
+    handleLikeClick = (event) => {
+        console.log('clicked on like button');
+        // call up the chain
+        this.props.addLike(this.props.itemInfo);
+    }
+
     render() {
         // conditional rendering
         let detailsToShow; // our JSX object
@@ -37,7 +43,7 @@ class GalleryItem extends Component {
                     
                 </div>
 
-                <button className="likeButton"><i className="far fa-thumbs-up"></i></button>
+                <button className="likeButton" onClick={this.handleLikeClick}><i className="far fa-thumbs-up"></i></button>
 
                 <p>Likes: {this.props.itemInfo.likes}</p>
             </div>
