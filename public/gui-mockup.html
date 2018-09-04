@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <style>
+        .flex-container {
+            display: flex;
+            /* flex-direction: row; not needed -- default value */
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;            
+        }
+        .card {
+            width: 250px;
+            height: 320px;
+            border: 1px solid gray;
+            margin: 10px;
+            /* controls my content: image, button, etc. */
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .card img {
+            width: 200px;
+            height: 200px;
+            margin: 10px 10px 20px;            
+        }
+        .likeButton {
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="card">
+            <img src="images/luca-breakfast.jpg" alt="Luca" />
+            <button class="likeButton"><i class="far fa-thumbs-up"></i></button>
+        </div>
+        <div class="card">
+            <img src="images/luca-breakfast.jpg" alt="Luca" />
+            <button class="likeButton"><i class="far fa-thumbs-up"></i></button>
+        </div>
+        <div class="card">
+            <img src="images/luca-breakfast.jpg" alt="Luca" />
+            <button class="likeButton"><i class="far fa-thumbs-up"></i></button>
+        </div>
+        <div class="card">
+            <img src="images/luca-breakfast.jpg" alt="Luca" />
+            <button class="likeButton"><i class="far fa-thumbs-up"></i></button>
+        </div>
+        <div class="card">
+            <img src="images/luca-breakfast.jpg" alt="Luca" />
+            <button class="likeButton"><i class="far fa-thumbs-up"></i></button>
+        </div>
+        <div class="card">
+            <img src="images/luca-breakfast.jpg" alt="Luca" />
+            <button class="likeButton"><i class="far fa-thumbs-up"></i></button>
+        </div>
+    </div>
+</body>
+</html>
