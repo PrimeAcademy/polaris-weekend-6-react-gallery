@@ -7,13 +7,30 @@
     display: flex; 
     flex-direction: column;
     align-items: center;
+    
 }
-.galleryItem img {
+.galleryItem-details {
     width: 200px;
     height: 150px;
-    margin: 10px 10px 20px;    
-    border: 1px solid crimson;        
+    margin: 10px 10px 20px; 
+    overflow: hidden;
+    background-size: 200px;
+    border: 1px solid gray;
 }
-.likeButton {
+.galleryItem-details p {
+    text-align: left;
+    margin: auto 10px;
+    font-size: 14px;
+}
+.galleryItem-details img {
+    width: 200px;
+    height: 150px;          
+}
+.galleryItem-likeButton {
     font-size: 3em;
+    border: 0;
+}
+.galleryItem-likeButton:hover {
+    color: blue;
+    cursor: pointer;
 }

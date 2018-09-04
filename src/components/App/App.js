@@ -6,7 +6,7 @@ class App extends Component {
 
   constructor() {
     super();
-    // state data. Will eventually come from this.props
+    // state data. Will eventually come from the server/api
     this.state = {
       galleryItems: [
         { id: 1, path: 'images/luca-incredibles.jpg', description: 'Am I needed somewhere?', likes: 0 },
