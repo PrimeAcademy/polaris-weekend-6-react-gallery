@@ -1,8 +1,8 @@
 # TO DO List
 
-- [ ] build out html/css ui
-- [ ] get layout working in app component
-- [ ] move card to dumb component
+- [x] build out html/css ui
+- [x] get layout working in app component
+- [x] move card to dumb component
 
 - [ ] put mock data into app component, state
   - [ ] update render for a list of cards

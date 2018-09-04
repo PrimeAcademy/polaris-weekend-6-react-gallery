@@ -1,0 +1,19 @@
+.galleryItem {
+    width: 250px;
+    height: 320px;
+    border: 1px solid gray;
+    margin: 10px;
+    /* controls my content: image, button, etc. */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.galleryItem img {
+    width: 200px;
+    height: 150px;
+    margin: 10px 10px 20px;    
+    border: 1px solid crimson;        
+}
+.likeButton {
+    font-size: 3em;
+}
