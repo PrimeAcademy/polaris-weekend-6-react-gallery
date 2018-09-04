@@ -21,7 +21,14 @@ class App extends Component {
   // add 1 like to a specific image
   addLike = (likedItem) => {
     console.log('recieved item to like: ', likedItem);
-
+    // put request to the server to like this item
+    axios.put(`/gallery/like/${likedItem.id}`, likedItem)
+      .then((response) => {        
+        this.getGalleryData();
+      })
+      .catch((error) => {
+        console.log('put request error: ', error);
+      });
   }
 
   getGalleryData = () => {

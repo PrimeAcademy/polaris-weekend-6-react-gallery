@@ -5,3 +5,9 @@
             justify-content: center;
             align-items: center;            
         }
+        
+        .galleryItem-details p {
+    text-align: left;
+    margin: auto 10px;
+    font-size: 4px;
+}
